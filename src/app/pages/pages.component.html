@@ -1,0 +1,23 @@
+<div class="main-wrapper">
+    <app-header></app-header>
+    <app-sidebar></app-sidebar>
+  
+    <div class="pages-wrapper">
+      <div class="container-fluid">
+        <!--breadcrumbs-->
+        <app-breadcrumbs></app-breadcrumbs>
+        <!--Sistema de ruras-->
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <p>Aqui van las rutas</p>
+                <router-outlet></router-outlet>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
