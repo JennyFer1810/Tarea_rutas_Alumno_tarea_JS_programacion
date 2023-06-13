@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { TareaComponent } from './tarea/tarea.component';
 import { AlumnoComponent } from './alumno/alumno.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AlumnoComponent } from './alumno/alumno.component';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   exports: [
     DashboardComponent,

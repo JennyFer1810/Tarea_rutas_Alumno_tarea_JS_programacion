@@ -19,6 +19,6 @@ import { AppRoutingModule } from './app-routing.module';
         AppRoutingModule,
         AuthModule,
         PagesModule,
-    ]
+    ],
 })
 export class AppModule { }
